@@ -4,25 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tste de Imagem de Fundo</title>
+    <title>teste de Imagem de Fundo</title>
     <style>
-        div.quadrdo {
+        body{
+            background-image: url(Imagens/pattern004.png);
+        }
+        div.quadrado {
             display: inline-block;
-            border: 10px solid black;
+            border: 2px solid black;
+            border-radius: 20px;
             width: 300px;
             height: 300px;
-            background-color: green;
+        }
+
+        div#q1{
+            background-color: skyblue;
+        }
+        div#q2{
+            background-image: linear-gradient(to bottom, yellow, red);
+        }
+        div#q3{
+            background-image: url(Imagens/pattern001.png);
         }
     </style>
 </head>
 <body>
-    <div class="quadrado">
+    <div class="quadrado" id="q1">
+        
+    </div>
+    <div class="quadrado" id="q2">
 
     </div>
-    <div class="quadrado">
-
-    </div>
-    <div class="quadrado">
+    <div class="quadrado" id="q3">
 
     </div>
 </body>
