@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,11 +7,27 @@
     <title>Document</title>
 </head>
 <body>
-    <fieldset>
+    <form action="cadastro.php" method="post">
+        <fieldset>
+            <legend>Sexo</legend>
+            <p>
+                <input type="radio" name="sexo" id="ima" value="M"><label for="ima">Masculino</label><br>
+                <input type="radio" name="sexo" id="ife" value="F"><label for="ife">Feminino</label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+            <p>
+                <input type="checkbox" name="bas" id="ibas"><label for="ibas">Basquete</label><br>
+                <input type="checkbox" name="fot" id="ifoot"><label for="ifoot">Footbol</label><br>
+                <input type="checkbox" name="nat" id="inat"><label for="inat">Natação</label><br>
+                <input type="checkbox" name="teni" id="iteni"><label for="iteni">Tenis</label>
+            </p>
+        </fieldset>
         <p>
             <input type="submit" value="Enviar">
             <input type="reset" value="Resetar">
         </p>
-    </fieldset>
+    </form>
 </body>
 </html>
