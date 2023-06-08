@@ -24,15 +24,18 @@
             </select>
         </p>
         <p>
-            <label for="iprof"></label>
-            <input type="text" name="prof" id="iprof">
-            <datalist>
-                <option>Adiministrador</option>
-                <option>Professor</option>
+            <label for="iprof">Profissão:</label>
+            <input type="text" name="prof" id="iprof" list="listprof">
+            <datalist id="listprof">
+                <option value="ADM">Adiministrador</option>
+                <option value="CONT">Contabilista</option>
+                <option value="PROF">Professor</option>
+                <option value="DEV">Desenvolvedor</option>
             </datalist>
         </p>
         <p>
-            <label for="msg">Mensagen</label>
+            <label for="imsg">Mensagen:</label> <br>
+            <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
         </p>
         <p>
             <input type="submit" value="Enviar">
