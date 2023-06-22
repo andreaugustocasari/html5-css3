@@ -12,6 +12,7 @@ body, html{
 }
 
 body{
+    background-position: right;
     background: black url(../imagens/back-phone.jpg) no-repeat;
     background-size: cover;
     background-position: center-center;
@@ -29,7 +30,7 @@ img{
 }
 
 #iphone{ display: blok;}
-#itab{ display: none;}
+#itablet{ display: none;}
 #ipc{ display: none;}
 #itv{ display: none;}
 #iprint{ display: none;}

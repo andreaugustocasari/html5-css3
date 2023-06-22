@@ -5,41 +5,41 @@
         background-image: url(../imagens/back-tablet.jpg);
     }
     #iphone{ display: none;}
-    #itab{ display: block;}
+    #itablet{ display: block;}
     #ipc{ display: none;}
     #itv{ display: none;}
     #iprint{ display: none;}
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
+@media screen and (min-width: 1025px) and (max-width: 1680px) {
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+    }
+    #iphone{ display: none;}
+    #itablet{ display: none;}
+    #ipc{ display: block;}
+    #itv{ display: none;}
+    #iprint{ display: none;}
+}
+
+@media screen and (min-width: 1681px) {
     body{
         background-image: url(../imagens/back-tv.jpg);
     }
     #iphone{ display: none;}
-    #itab{ display: none;}
+    #itablet{ display: none;}
     #ipc{ display: none;}
     #itv{ display: block;}
     #iprint{ display: none;}
 }
 
-@media screen and (min-width: 1201px) {
-    body{
-        background-image: url(../imagens/back-tv.jpg);
-    }
-    #iphone{ display: none;}
-    #itab{ display: none;}
-    #ipc{ display: none;}
-    #itv{ display: block;}
-    #iprint{ display: none;}
-}
 
-
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media print {
     body{
         background-image: url(../imagens/back-tablet.jpg);
     }        
     #iphone{ display: none;}
-    #itab{ display: none;}
+    #itablet{ display: none;}
     #ipc{ display: none;}
     #itv{ display: none;}
     #iprint{ display: none;}
