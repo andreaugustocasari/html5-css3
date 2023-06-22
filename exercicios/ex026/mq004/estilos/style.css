@@ -23,9 +23,13 @@ main{
     margin: auto;
     border-radius: 15px;
 }
+img{
+    display: block;
+    margin: auto;
+}
 
-#i1{ display: none;}
-#i2{ display: blok;}
-#i3{ display: none;}
-#i4{ display: none;}
-#i5{ display: none;}
+#iphone{ display: blok;}
+#itab{ display: none;}
+#ipc{ display: none;}
+#itv{ display: none;}
+#iprint{ display: none;}
