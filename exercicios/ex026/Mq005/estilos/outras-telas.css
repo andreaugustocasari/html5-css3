@@ -1,8 +1,11 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 800px){
+    h1{
+        color: black;
+    }
     header{
-        background-image: linear-gradient(to bottom, #3e3e3e, #eee);
+        background-image: linear-gradient(to bottom, #eee, #9f9f9f);
     }
     span{
         display: none;
