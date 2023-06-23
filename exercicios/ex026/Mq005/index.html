@@ -9,7 +9,10 @@
 <body>
     <header>
         <h1>Meu site</h1>
-        <menu>
+        <menu id="img">
+            <img src="imagem de menu.png" alt="Menu" onclick="click">
+        </menu>
+        <menu id="itens">
             <a href="#">Opição 1</a>
             <a href="#">Opição 2</a>
             <a href="#">Opição 3</a>
@@ -30,7 +33,14 @@
         </article>
     </main>
     <script>
-        
+        function click() {
+            if (itens.style.display == 'block') {
+                intens.style.display = 'none'
+            }
+            else {
+                itens.style.display = 'block'
+            }
+        }
     </script>
 </body>
 </html>
