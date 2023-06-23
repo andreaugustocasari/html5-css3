@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 800px){
+    header{
+        background-image: linear-gradient(to bottom, #3e3e3e, #eee);
+    }
+    span{
+        display: none;
+    }
+    menu{
+        padding: 10px;
+        display: block;
+        padding: 0px;
+    }
+    menu > ul > li {
+        display: inline-block;
+        padding: 10px;
+    }
+    main{
+        width: 768px;
+    }
+}
